@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+/* GERAL SETTING */
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+/* ELEMENTS SELECTORS */
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+/* CLASSES SELECTORS */
+/* Everything about container */
+.pricing-container {
+    padding: 20px 40px;
+    background-color: #F1F0EF;
+    border-radius: 5px;
+}
+
+.pricing-plan {
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.pricing-title {
+    font-weight: bold;
+}
+
+.plan-price {
+    font-weight: bolder;
+    font-size: 25px;
+}
+
+.plan-features {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-button {
+    height: 20%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.plan-button > button {
+    padding: 10px;
+    margin-top: 10px;
+    color: #fff;
+    background-color: #ff6600;
+    border: none;
+    border-radius: 5px;
+}
